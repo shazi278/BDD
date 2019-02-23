@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 	features = "src/main/java/featureFiles/Login.feature",
 	glue = {"stepDefinitions"},
 	format= {"pretty"},
-	dryRun = false
+	dryRun = true
 		
 	
 		
