@@ -39,7 +39,8 @@ public class LoginDefenition {
 		jse.executeScript("arguments[0].click()", loginButton);
 		
 	}
-
+	
+	//Verifying Home page title
 	@Then("^User is on CRM home page$")
 	public void user_is_on_CRM_home_page() {
 		String title = driver.getTitle();
